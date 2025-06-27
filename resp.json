@@ -1,0 +1,1083 @@
+{
+  "success": true,
+  "data": {
+    "total": [
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 1106,
+          "activePartners": 699
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 2011,
+          "activePartners": 23759
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 3015,
+          "activePartners": 117
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 4018,
+          "activePartners": 88040
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 5069,
+          "activePartners": 177
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 8584,
+          "activePartners": 121
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 7033,
+          "activePartners": 172
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 8033,
+          "activePartners": 891
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 9040,
+          "activePartners": 785796
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 10042,
+          "activePartners": 131
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 11047,
+          "activePartners": 729
+        }
+      },
+      {
+        "fact": {
+          "income": 0,
+          "activePartners": 0
+        },
+        "plan": {
+          "income": 12051,
+          "activePartners": 682
+        }
+      }
+    ],
+    "table": [
+      {
+        "id": 32,
+        "adminId": 262,
+        "adminName": "Admin262",
+        "months": [
+          {
+            "income": 1,
+            "activePartners": 585,
+            "plan": {
+              "income": 1,
+              "activePartners": 585
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 23732,
+            "plan": {
+              "income": 2,
+              "activePartners": 23732
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 77,
+            "plan": {
+              "income": 2,
+              "activePartners": 77
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 87987,
+            "plan": {
+              "income": 1,
+              "activePartners": 87987
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 14,
+            "activePartners": 78,
+            "plan": {
+              "income": 14,
+              "activePartners": 78
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2525,
+            "activePartners": 8,
+            "plan": {
+              "income": 2525,
+              "activePartners": 8
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 4,
+            "activePartners": 80,
+            "plan": {
+              "income": 4,
+              "activePartners": 80
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 0,
+            "activePartners": 786,
+            "plan": {
+              "income": 0,
+              "activePartners": 786
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 3,
+            "activePartners": 785678,
+            "plan": {
+              "income": 3,
+              "activePartners": 785678
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 0,
+            "plan": {
+              "income": 1,
+              "activePartners": 0
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 585,
+            "plan": {
+              "income": 2,
+              "activePartners": 585
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 525,
+            "plan": {
+              "income": 2,
+              "activePartners": 525
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          }
+        ],
+        "year": 2025
+      },
+      {
+        "id": 31,
+        "adminId": 325,
+        "adminName": "Admin325",
+        "months": [
+          {
+            "income": 1,
+            "activePartners": 10,
+            "plan": {
+              "income": 1,
+              "activePartners": 10
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 20,
+            "plan": {
+              "income": 2,
+              "activePartners": 20
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 3,
+            "activePartners": 30,
+            "plan": {
+              "income": 3,
+              "activePartners": 30
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 4,
+            "activePartners": 40,
+            "plan": {
+              "income": 4,
+              "activePartners": 40
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 5,
+            "activePartners": 50,
+            "plan": {
+              "income": 5,
+              "activePartners": 50
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 6,
+            "activePartners": 60,
+            "plan": {
+              "income": 6,
+              "activePartners": 60
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 7,
+            "activePartners": 70,
+            "plan": {
+              "income": 7,
+              "activePartners": 70
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 8,
+            "activePartners": 80,
+            "plan": {
+              "income": 8,
+              "activePartners": 80
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 9,
+            "activePartners": 90,
+            "plan": {
+              "income": 9,
+              "activePartners": 90
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 10,
+            "activePartners": 100,
+            "plan": {
+              "income": 10,
+              "activePartners": 100
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 11,
+            "activePartners": 110,
+            "plan": {
+              "income": 11,
+              "activePartners": 110
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 12,
+            "activePartners": 120,
+            "plan": {
+              "income": 12,
+              "activePartners": 120
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          }
+        ],
+        "year": 2025
+      },
+      {
+        "id": 30,
+        "adminId": 258,
+        "adminName": "Admin258",
+        "months": [
+          null,
+          null,
+          null,
+          null,
+          {
+            "income": 34,
+            "activePartners": 34,
+            "plan": {
+              "income": 34,
+              "activePartners": 34
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 34,
+            "activePartners": 34,
+            "plan": {
+              "income": 34,
+              "activePartners": 34
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "year": 2025
+      },
+      {
+        "id": 29,
+        "adminId": 284,
+        "adminName": "Admin284",
+        "months": [
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          }
+        ],
+        "year": 2025
+      },
+      {
+        "id": 28,
+        "adminId": 270,
+        "adminName": "Admin270",
+        "months": [
+          {
+            "income": 1,
+            "activePartners": 1,
+            "plan": {
+              "income": 1,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 2,
+            "plan": {
+              "income": 2,
+              "activePartners": 2
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 3,
+            "activePartners": 3,
+            "plan": {
+              "income": 3,
+              "activePartners": 3
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 4,
+            "activePartners": 4,
+            "plan": {
+              "income": 4,
+              "activePartners": 4
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 5,
+            "activePartners": 5,
+            "plan": {
+              "income": 5,
+              "activePartners": 5
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 6,
+            "activePartners": 6,
+            "plan": {
+              "income": 6,
+              "activePartners": 6
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 7,
+            "activePartners": 7,
+            "plan": {
+              "income": 7,
+              "activePartners": 7
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 8,
+            "activePartners": 8,
+            "plan": {
+              "income": 8,
+              "activePartners": 8
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 9,
+            "activePartners": 9,
+            "plan": {
+              "income": 9,
+              "activePartners": 9
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 10,
+            "activePartners": 10,
+            "plan": {
+              "income": 10,
+              "activePartners": 10
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 11,
+            "activePartners": 11,
+            "plan": {
+              "income": 11,
+              "activePartners": 11
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 12,
+            "activePartners": 12,
+            "plan": {
+              "income": 12,
+              "activePartners": 12
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          }
+        ],
+        "year": 2025
+      },
+      {
+        "id": 27,
+        "adminId": 287,
+        "adminName": "Admin287",
+        "months": [
+          {
+            "income": 101,
+            "activePartners": 101,
+            "plan": {
+              "income": 101,
+              "activePartners": 101
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2,
+            "activePartners": 2,
+            "plan": {
+              "income": 2,
+              "activePartners": 2
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 3,
+            "activePartners": 3,
+            "plan": {
+              "income": 3,
+              "activePartners": 3
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 4,
+            "activePartners": 4,
+            "plan": {
+              "income": 4,
+              "activePartners": 4
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 5,
+            "activePartners": 4,
+            "plan": {
+              "income": 5,
+              "activePartners": 4
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 6,
+            "activePartners": 6,
+            "plan": {
+              "income": 6,
+              "activePartners": 6
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 7,
+            "activePartners": 7,
+            "plan": {
+              "income": 7,
+              "activePartners": 7
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 8,
+            "activePartners": 8,
+            "plan": {
+              "income": 8,
+              "activePartners": 8
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 9,
+            "activePartners": 9,
+            "plan": {
+              "income": 9,
+              "activePartners": 9
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 10,
+            "activePartners": 10,
+            "plan": {
+              "income": 10,
+              "activePartners": 10
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 11,
+            "activePartners": 11,
+            "plan": {
+              "income": 11,
+              "activePartners": 11
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 12,
+            "activePartners": 12,
+            "plan": {
+              "income": 12,
+              "activePartners": 12
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          }
+        ],
+        "year": 2025
+      },
+      {
+        "id": 21,
+        "adminId": 55,
+        "adminName": "Admin55",
+        "months": [
+          {
+            "income": 1001,
+            "activePartners": 1,
+            "plan": {
+              "income": 1001,
+              "activePartners": 1
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 2002,
+            "activePartners": 2,
+            "plan": {
+              "income": 2002,
+              "activePartners": 2
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 3003,
+            "activePartners": 3,
+            "plan": {
+              "income": 3003,
+              "activePartners": 3
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 4004,
+            "activePartners": 4,
+            "plan": {
+              "income": 4004,
+              "activePartners": 4
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 5005,
+            "activePartners": 5,
+            "plan": {
+              "income": 5005,
+              "activePartners": 5
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 6006,
+            "activePartners": 6,
+            "plan": {
+              "income": 6006,
+              "activePartners": 6
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 7007,
+            "activePartners": 7,
+            "plan": {
+              "income": 7007,
+              "activePartners": 7
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 8008,
+            "activePartners": 8,
+            "plan": {
+              "income": 8008,
+              "activePartners": 8
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 9009,
+            "activePartners": 9,
+            "plan": {
+              "income": 9009,
+              "activePartners": 9
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 10010,
+            "activePartners": 10,
+            "plan": {
+              "income": 10010,
+              "activePartners": 10
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 11011,
+            "activePartners": 11,
+            "plan": {
+              "income": 11011,
+              "activePartners": 11
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          },
+          {
+            "income": 12012,
+            "activePartners": 12,
+            "plan": {
+              "income": 12012,
+              "activePartners": 12
+            },
+            "fact": {
+              "income": 0,
+              "activePartners": 0
+            }
+          }
+        ],
+        "year": 2025
+      }
+    ]
+  }
+}
