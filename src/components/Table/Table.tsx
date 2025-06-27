@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { dataStore } from "@store/dataStore";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
-import "./styles.scss";
 
 const monthNames = [
   "January",
