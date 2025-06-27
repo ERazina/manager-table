@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { dataStore } from "../../store/dataStore";
+import { dataStore } from "@store/dataStore";
 import "./styles.scss";
 
 const monthNames = [
@@ -15,7 +15,7 @@ export const Table = () => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [fetchData]);
 
   const visibleMonths = monthNames.slice(scrollIndex, scrollIndex + visibleCount);
 
