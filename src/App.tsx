@@ -1,13 +1,8 @@
-import { Table } from "./components/Table/Table";
+import { Table } from "@components/Table";
 import "./App.css";
 
 const App = () => {
-
-  return (
-    <>
-      <Table />
-    </>
-  );
-}
+  return <Table />;
+};
 
 export default App;
