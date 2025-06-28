@@ -27,10 +27,7 @@ export const Table = () => {
     fetchData();
   }, [fetchData]);
 
-  const visibleMonths = monthNames.slice(
-    scrollIndex,
-    scrollIndex + visibleCount
-  );
+  const visibleMonths = monthNames.slice(scrollIndex, scrollIndex + visibleCount);
 
   const getMonthStyle = (monthIdx: number) => {
     return monthIdx < currentMonthIndex
@@ -38,10 +35,9 @@ export const Table = () => {
       : "text-gray-900 font-semibold";
   };
 
-  if (isLoading) return <div className="text-center py-4">Загрузка...</div>;
-  if (error)
-    return <div className="text-red-500 py-4 text-center">{error}</div>;
-  if (!data) return <div className="text-center py-4">Нет данных</div>;
+  if (isLoading) return <div className="text-center py-4">Loading...</div>;
+  if (error) return <div className="text-red-500 py-4 text-center">{error}</div>;
+  if (!data) return <div className="text-center py-4">No data</div>;
 
   return (
     <div className="overflow-x-auto p-4">
@@ -51,7 +47,7 @@ export const Table = () => {
           className="px-3 py-1 bg-gray-200 hover:bg-gray-300 rounded disabled:opacity-50"
           disabled={scrollIndex === 0}
         >
-          <ChevronLeftIcon className="w-5 h-5 text-gray-500" />{" "}
+          <ChevronLeftIcon className="w-5 h-5 text-gray-500" />
         </button>
         <button
           onClick={() =>
@@ -66,15 +62,15 @@ export const Table = () => {
         </button>
       </div>
 
-      <table className="min-w-full border border-collapse text-center">
+      <table className="text-center border border-[#D5DDE3] border-collapse w-full">
         <thead>
           <tr className="bg-[#F7FAFC]">
-            <th className="border px-3 py-2" rowSpan={2}></th>
-            <th className="border px-3 py-2" rowSpan={2}></th>
+            <th className="border border-[#D5DDE3] px-3 py-2" rowSpan={2}></th>
+            <th className="border border-[#D5DDE3] px-3 py-2" rowSpan={2}></th>
             {visibleMonths.map((month, idx) => (
               <th
                 key={idx}
-                className={`border border-b-0 px-3 py-2 ${getMonthStyle(scrollIndex + idx)}`}
+                className={`border border-b-0 border-[#D5DDE3] px-3 py-2 ${getMonthStyle(scrollIndex + idx)}`}
                 colSpan={4}
               >
                 {month}
@@ -86,7 +82,7 @@ export const Table = () => {
               <th
                 key={idx}
                 colSpan={4}
-                className={`border border-t-0 px-0 py-0 ${getMonthStyle(scrollIndex + idx)}`}
+                className={`border border-t-0 border-[#D5DDE3] px-0 py-0 ${getMonthStyle(scrollIndex + idx)}`}
               >
                 <div className="grid grid-cols-2 text-[11px]">
                   <div className="py-2 font-medium">Plan:</div>
@@ -98,19 +94,25 @@ export const Table = () => {
         </thead>
         <tbody>
           <tr className="font-semibold">
-            <td className="border px-3 py-2 text-left">Manager</td>
-            <td className="border px-3 py-2">
-              <div className="flex flex-col">
-                <span>Total income</span>
-                <span className="text-gray-500">Total active partners</span>
+            <td className="border border-[#D5DDE3] px-3 py-2 text-left text-[#7C8CB5]">
+              Manager
+            </td>
+            <td className="border border-[#D5DDE3] px-0 py-0">
+              <div className="grid grid-rows-2 items-center justify-center text-center h-[64px]">
+                <div className="text-[13px] font-semibold text-[#7486B1]">
+                  Total income:
+                </div>
+                <div className="text-[13px] text-[#7486B1]">
+                  Total active partners:
+                </div>
               </div>
             </td>
             {visibleMonths.map((_, idx) => {
               const month = data.data.total[scrollIndex + idx];
               return month ? (
-                <td key={idx} colSpan={4} className="border px-0 py-0">
+                <td key={idx} colSpan={4} className="border border-[#D5DDE3] px-0 py-0">
                   <div
-                    className={`grid grid-cols-2 grid-rows-2 text-[13px] ${getMonthStyle(scrollIndex + idx)}`}
+                    className={`grid grid-cols-2 grid-rows-2 text-[12px] ${getMonthStyle(scrollIndex + idx)}`}
                   >
                     <div className="py-2 px-3 border border-transparent">
                       ${month.plan.income}
@@ -130,9 +132,9 @@ export const Table = () => {
                 <td
                   key={idx}
                   colSpan={4}
-                  className="border px-3 py-2 text-gray-400"
+                  className="border border-[#D5DDE3] px-3 py-2 text-gray-400 text-[13px]"
                 >
-                  нет данных
+                  No data
                 </td>
               );
             })}
@@ -140,19 +142,23 @@ export const Table = () => {
 
           {data.data.table.map((manager) => (
             <tr key={manager.id}>
-              <td className="border px-3 py-2 text-left font-bold">
+              <td className="border border-[#D5DDE3] px-3 py-2 text-left font-bold">
                 {manager.adminName}
               </td>
-              <td className="border px-3 py-2">
-                <div className="flex flex-col">
-                  <span className="font-medium">Income</span>
-                  <span className="text-gray-500">Active partners</span>
+              <td className="border border-[#D5DDE3] px-0 py-0">
+                <div className="grid grid-rows-2 items-center justify-center text-center h-[64px]">
+                  <div className="text-[13px] font-semibold text-gray-400">
+                    Income:
+                  </div>
+                  <div className="text-[13px] text-gray-400">
+                    Active partners:
+                  </div>
                 </div>
               </td>
               {visibleMonths.map((_, idx) => {
                 const month = manager.months[scrollIndex + idx];
                 return month ? (
-                  <td key={idx} colSpan={4} className="border px-0 py-0">
+                  <td key={idx} colSpan={4} className="border border-[#D5DDE3] px-0 py-0">
                     <div
                       className={`grid grid-cols-2 grid-rows-2 text-[14px] ${getMonthStyle(scrollIndex + idx)}`}
                     >
@@ -174,7 +180,7 @@ export const Table = () => {
                   <td
                     key={idx}
                     colSpan={4}
-                    className="border px-3 py-2 text-gray-400"
+                    className="border border-[#D5DDE3] px-3 py-2 text-gray-400"
                   >
                     No data
                   </td>
